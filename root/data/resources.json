@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Resource",
+        "image": "assets/icons/circle.png",
+        "description": "Description"
+    },
+    {
+        "name": "Water",
+        "image": "assets/icons/waterskin.png",
+        "description": "Essential"
+    },
+    {
+        "name": "Essence",
+        "image": "assets/icons/ink-swirl.png",
+        "description": "Raw Magical Essence"
+    }
+]

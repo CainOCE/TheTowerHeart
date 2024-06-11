@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Amethyst",
+        "image": "assets/icons/amethyst.png",
+        "description": "A precious gem."
+    },
+    {
+        "name": "Emerald",
+        "image": "assets/icons/emerald.png",
+        "description": "A precious gem."
+    },
+    {
+        "name": "Topaz",
+        "image": "assets/icons/topaz.png",
+        "description": "A precious gem."
+    },
+    {
+        "name": "Diamond",
+        "image": "assets/icons/cut-diamond.png",
+        "description": "A precious gem."
+    }
+]

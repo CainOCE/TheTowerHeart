@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>The Tower Heart - Incremental Prototype</title>
+
+    <!-- Style & Theming -->
+    <link rel="stylesheet" type="text/css" href="styles/style_core.css">
+    <link rel="stylesheet" type="text/css" href="styles/main_theme.css">
+</head>
+<body>
+    <!-- Settings Elements -->
+    <div class="system-actions">
+
+        <button onclick=""><img src="assets/icons/open-book.png" /></button>
+        <button onclick="toggleSettingsMenu()"><img src="assets/icons/cog.png" /></button>
+        <button onclick="quit()"><img src="assets/icons/doorway.png" /></button>
+    </div>
+    <div class="settings">
+        Settings Menu
+    </div>
+
+    <!-- Scene Layout -->
+    <div class="header-bar"></div>
+
+    <div class="content-bar">
+        <div class="left-bar">
+            <button>A</button>
+            <button hidden>2</button>
+            <button hidden>3</button>
+            <button hidden>4</button>
+            <button hidden>5</button>
+        </div>
+
+
+        <div class="scene">
+            <div class="orb"><div class="fill" id="fill"></div></div>
+            <div class="resources"></div>
+        </div>
+
+
+        <div class="right-bar">
+            <button><img src="assets/icons/backpack.png" /></button>
+            <button hidden>2</button>
+            <button hidden>3</button>
+            <button hidden>4</button>
+            <button hidden>5</button>
+        </div>
+    </div>
+    <div class="footer-bar">
+        <button ><img src="assets/icons/hand.png" /></button>
+        <button hidden>2</button>
+        <button hidden>3</button>
+        <button hidden>4</button>
+        <button hidden>5</button>
+    </div>
+
+    <div class="inventory">
+        <button class="inventory-tab" data-target="panel1">
+            <img src="assets/icons/hand.png" />
+        </button>
+        <button class="inventory-tab" data-target="panel2">
+            <img src="assets/icons/hand.png" />
+        </button>
+        <button class="inventory-tab" data-target="panel3">
+            <img src="assets/icons/hand.png" />
+        </button>
+
+        <div id="inventory-quest" class="inventory-panel">
+            Items
+        </div>
+        <div id="inventory-food" class="inventory-panel">
+            Food
+        </div>
+        <div id="inventory-weapons" class="inventory-panel">
+            Content for Tab 3
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script src="src/inventory.js"></script>
+    <script src="src/hotkeys.js"></script>
+    <script src="src/persistence.js"></script>
+</body>
+</html>
